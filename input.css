@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Thunder";
+    src: url("/assets/fonts/Thunder-MediumLC.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Thunder";
+    src: url("/assets/fonts/Thunder-BoldLC.ttf") format("truetype");
+    font-weight: bold;
+  }
+}
+
+body {
+  font-family: "Thunder";
+}
