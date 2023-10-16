@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -10,18 +10,18 @@ module.exports = {
       fontFamily: {
         thunder: ["Thunder"],
       },
-      fontSize:{
-        "2xl" : "clamp(100px,20cqw,300px)",
-        "xl": "clamp(30px,5cqw,40px)",
-        "lg": "clamp(18px,4cqw,24px)"
+      fontSize: {
+        "2xl": "clamp(100px,20cqw,300px)",
+        xl: "clamp(30px,5cqw,40px)",
+        lg: "clamp(18px,4cqw,24px)",
       },
       backgroundImage: {
         "bg-hero": "url(/assets/hero.png)",
       },
-      backgroundSize:{
+      backgroundSize: {
         desktop: "50%",
         tablet: "110%",
-        moblie: "190%"
+        moblie: "190%",
       },
       animation: {
         marquee: "marquee 4s linear infinite forwards",
